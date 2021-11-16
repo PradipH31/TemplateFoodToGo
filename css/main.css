@@ -10,6 +10,12 @@ body {
   font-family: 'Poppins';
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   background: white;
   padding: 1em;
@@ -43,5 +49,13 @@ body {
 
 .navbar .mobile-menu {
   cursor: pointer;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
