@@ -118,4 +118,27 @@ section.features-section li img {
 section.features-section li .feature-text {
   padding-bottom: 2em;
 }
+
+.contact-section {
+  text-align: center;
+}
+
+.contact-section .container a {
+  display: inline-block;
+}
+
+.contact-section .contact-left {
+  margin-bottom: 5em;
+}
+
+.contact-section .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-evenly;
+}
+
+iframe {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */

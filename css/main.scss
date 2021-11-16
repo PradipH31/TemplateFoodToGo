@@ -112,3 +112,23 @@ section.features-section {
         }
     }
 }
+
+.contact-section{
+    text-align: center;
+    .container{
+        a{
+            display: inline-block;
+        }
+    }
+    .contact-left{
+        margin-bottom: 5em;
+    }
+    .links{
+        display:flex;
+        place-content: space-evenly;
+    }
+}
+
+iframe{
+    width:100%;
+}
