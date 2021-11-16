@@ -141,4 +141,19 @@ section.features-section li .feature-text {
 iframe {
   width: 100%;
 }
+
+section.mobile-app {
+  background: var(--primary-color);
+}
+
+section.mobile-app .container {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+section.mobile-app .container img {
+  padding-top: 1.1em;
+}
 /*# sourceMappingURL=main.css.map */
