@@ -9,3 +9,34 @@ body{
     margin: 0;
     font-family: 'Poppins';
 }
+
+
+.navbar{
+    background: white;
+    padding: 1em;
+    font-size: 1.5em;
+
+    .logo{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 1.2em;
+        margin-left: 3vw;
+        span{
+            color: var(--primary-color);
+        }
+    }
+
+    nav {
+        display: none;
+    }
+    
+    .container{
+        display:flex;
+        align-items: center;
+    }
+
+    .mobile-menu{
+        cursor: pointer;
+    }
+}

@@ -9,4 +9,39 @@ body {
   margin: 0;
   font-family: 'Poppins';
 }
+
+.navbar {
+  background: white;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+  margin-left: 3vw;
+}
+
+.navbar .logo span {
+  color: var(--primary-color);
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
 /*# sourceMappingURL=main.css.map */
