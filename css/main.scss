@@ -230,3 +230,68 @@ nav{
         }
     }
 }
+
+@media only screen and (min-width:  1080px) {
+        .container{
+            width: 1080px;
+            margin:0 auto;
+        }
+
+        section{
+            padding: 10em 4em;
+        }
+
+        .hero .container{
+            display:flex;
+            justify-content: space-between;
+            text-align: left;
+
+            .left-col{
+                margin: 3em 3em 0 5em;
+
+                h1{
+                    font-size: 3em;
+                    width: 90%;
+                }
+            }
+        }
+
+        .hero-img{
+            width: 30%;
+            margin-right: 8em;
+        }
+
+        .features-section ul {
+            display: flex;
+            li{
+                margin: 0 1em;
+            }
+        }
+
+        .contact-section{
+            position: relative;
+            .container{
+                display:flex;
+            }
+        }
+
+        .contact-right{
+            position: absolute;
+            right:0;
+            top:0;
+            width:45%;
+            height:100%;
+            iframe{
+                height: 100%;
+            }
+        }
+
+        .mobile-app .container{
+            display: flex;
+            flex-direction: column;
+            img{
+                width:50%;
+                align-self: center;
+            }
+        }
+}
