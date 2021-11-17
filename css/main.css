@@ -249,6 +249,24 @@ nav img {
   .navbar nav li.current a {
     font-weight: bold;
   }
+  section.mobile-app {
+    max-height: 30vh;
+  }
+  section.mobile-app .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.mobile-app .container img {
+    width: 30%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
 }
 
 @media only screen and (min-width: 1080px) {
@@ -305,7 +323,11 @@ nav img {
   .contact-right iframe {
     height: 100%;
   }
-  .mobile-app .container {
+  section.mobile-app {
+    padding-top: 5em;
+    max-height: 20vh;
+  }
+  section.mobile-app .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -314,8 +336,8 @@ nav img {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .mobile-app .container img {
-    width: 50%;
+  section.mobile-app .container img {
+    width: 30%;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;

@@ -229,6 +229,18 @@ nav{
             font-weight: bold;
         }
     }
+
+    section.mobile-app{
+        max-height: 30vh;
+        .container{
+            display: flex;
+            flex-direction: column;
+            img{
+                width:30%;
+                align-self: center;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width:  1080px) {
@@ -286,12 +298,17 @@ nav{
             }
         }
 
-        .mobile-app .container{
+        section.mobile-app 
+        {
+            padding-top: 5em;
+            max-height: 20vh;
+            .container{
             display: flex;
             flex-direction: column;
             img{
-                width:50%;
+                width:30%;
                 align-self: center;
             }
         }
+    }
 }
